@@ -13,15 +13,16 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "JimLee1996"
         type: choice
         options:
+          - JimLee1996
           - unifreq
           - codesnas
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.6.y"
+        default: "6.1.y"
         type: choice
         options:
           - 5.4.y
